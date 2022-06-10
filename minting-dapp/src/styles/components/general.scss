@@ -28,17 +28,17 @@ strong {
 
 .firstScreen{
   background-image: url('../../images/bg-firstScreen.jpg');
-  @apply bg-center bg-cover bg-fixed;
+  @apply bg-center bg-cover bg-scroll;
 }
 
 #dappContainer{
   background-image: url('../../images/bg-dapp.jpg');
-  @apply bg-center bg-cover bg-fixed;
+  @apply bg-center bg-cover bg-scroll;
 }
 
 .moreScreen1{
   background-image: url('../../images/bg-moreScreen1.jpg');
-  @apply bg-center bg-cover bg-fixed;
+  @apply bg-center bg-cover bg-scroll;
 }
 
 .moreScreen2{

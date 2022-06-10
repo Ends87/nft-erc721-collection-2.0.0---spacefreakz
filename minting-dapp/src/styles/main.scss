@@ -13,11 +13,10 @@ body {
 }
 
 #logo {
-  padding-top: 45px;
+  padding-top: 3%;
  }
 
 .firstScreen{
-  border-top: 10%;  
   height: 100vh;
 }
 
@@ -25,6 +24,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 3%;
+  min-height: 100vh;
 }
 
 .preview img{
@@ -41,16 +41,39 @@ body {
   width: 100%;
   height: auto;
   padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.topnav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+    margin: 1vh;
+  }
 
 .topnav a {
   float: left;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vh 1vh;
   text-decoration: none;
   font-size: 17px;
+}
+
+.topnav .i{
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vh 1vh;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 .topnav a:hover {
@@ -59,9 +82,14 @@ body {
   text-decoration: none;
 }
 
-.topnav a.active {
-  background-color: #360575;
-  color: white;
+.topnav img {
+  max-height: 20vh;
+  max-width:  10vh;
+}
+
+#open-sea{
+  max-height: 30px;
+  max-width:  30px;
 }
 
 .topnav .icon {
